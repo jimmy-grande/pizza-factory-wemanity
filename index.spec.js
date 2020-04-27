@@ -74,4 +74,23 @@ describe('Make a pizza', () => {
         expect(result).toThrow()
  
     })
+
+    it('Should NOT make pizza WHEN no dough', () => {
+        // Arrange
+
+        const toppings = ['tomato sauce']
+
+        const inputs = {
+            type: '4 seasons',
+            size: 'euh',
+            toppings
+        }
+
+        // Act
+        const result = () => new PizzaMaker(inputs)
+
+        // Assert
+        expect(result).toThrow()
+
+    })
 })
