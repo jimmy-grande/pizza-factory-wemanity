@@ -1,0 +1,10 @@
+{
+  "name": "pizza-factory-wemanity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jimmy Grande <jimmy.grande@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.4.0"
+  }
+}
