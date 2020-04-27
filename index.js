@@ -1,8 +1,11 @@
-// TODO : write the factory
-const make = (params) => {
-    
+class PizzaMaker {
+    constructor(inputs) {
+        this.size = inputs.size
+        this.type = inputs.type
+        this.toppings = inputs.toppings
+    }
 }
 
-module.export = {
-    make
+module.exports = {
+    PizzaMaker
 }

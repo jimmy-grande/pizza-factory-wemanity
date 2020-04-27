@@ -1,5 +1,9 @@
 # kata-pizza-factory
 
+[![Build Status](https://travis-ci.org/jimmy-grande/pizza-factory-wemanity.svg?branch=master)](https://travis-ci.org/jimmy-grande/pizza-factory-wemanity)
+
+---
+
 ## Problem Description
 
 Create a program which which acts as a pizzeria, so that given an order from a customer, pizzas are made for delivery.
