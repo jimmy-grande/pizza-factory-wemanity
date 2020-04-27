@@ -4,6 +4,11 @@
   "main": "index.js",
   "author": "Jimmy Grande <jimmy.grande@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage",
+    "test:dev": "yarn test --watchAll"
+  },
   "devDependencies": {
     "jest": "^25.4.0"
   }

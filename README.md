@@ -34,7 +34,7 @@ There are 5 steps in making pizzas :
 - add sauce - 30 secondes per pizza
 - add toppings - 30 secondes per pizza
 - bake - 10 to 15 minutes
-- packaging - 15 seconds per pizza
+- packaging - 15 second s per pizza
 
 When an order is being validated by the ordering manager, the factory will start making pizzas for that order. One order may have maximum 5 pizzas.
 
